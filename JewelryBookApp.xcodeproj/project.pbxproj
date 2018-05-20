@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1224AA920A6C1A40040602A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1224AA820A6C1A40040602A /* AppDelegate.swift */; };
+		F1224AAB20A6C1A40040602A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1224AAA20A6C1A40040602A /* ViewController.swift */; };
+		F1224AAE20A6C1A40040602A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1224AAC20A6C1A40040602A /* Main.storyboard */; };
+		F1224AB020A6C1A60040602A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1224AAF20A6C1A60040602A /* Assets.xcassets */; };
+		F1224AB320A6C1A60040602A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1224AB120A6C1A60040602A /* LaunchScreen.storyboard */; };
+		F1224ABE20A6C1A60040602A /* JewelryBookAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1224ABD20A6C1A60040602A /* JewelryBookAppTests.swift */; };
+		F1224AC920A6C1A60040602A /* JewelryBookAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1224AC820A6C1A60040602A /* JewelryBookAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1224ABA20A6C1A60040602A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1224A9D20A6C1A40040602A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1224AA420A6C1A40040602A;
+			remoteInfo = JewelryBookApp;
+		};
+		F1224AC520A6C1A60040602A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1224A9D20A6C1A40040602A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1224AA420A6C1A40040602A;
+			remoteInfo = JewelryBookApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1224AA520A6C1A40040602A /* JewelryBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JewelryBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1224AA820A6C1A40040602A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1224AAA20A6C1A40040602A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1224AAD20A6C1A40040602A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1224AAF20A6C1A60040602A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1224AB220A6C1A60040602A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1224AB420A6C1A60040602A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1224AB920A6C1A60040602A /* JewelryBookAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JewelryBookAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1224ABD20A6C1A60040602A /* JewelryBookAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelryBookAppTests.swift; sourceTree = "<group>"; };
+		F1224ABF20A6C1A60040602A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1224AC420A6C1A60040602A /* JewelryBookAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JewelryBookAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1224AC820A6C1A60040602A /* JewelryBookAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelryBookAppUITests.swift; sourceTree = "<group>"; };
+		F1224ACA20A6C1A60040602A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1224AA220A6C1A40040602A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1224AB620A6C1A60040602A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1224AC120A6C1A60040602A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1224A9C20A6C1A40040602A = {
+			isa = PBXGroup;
+			children = (
+				F1224AA720A6C1A40040602A /* JewelryBookApp */,
+				F1224ABC20A6C1A60040602A /* JewelryBookAppTests */,
+				F1224AC720A6C1A60040602A /* JewelryBookAppUITests */,
+				F1224AA620A6C1A40040602A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1224AA620A6C1A40040602A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1224AA520A6C1A40040602A /* JewelryBookApp.app */,
+				F1224AB920A6C1A60040602A /* JewelryBookAppTests.xctest */,
+				F1224AC420A6C1A60040602A /* JewelryBookAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1224AA720A6C1A40040602A /* JewelryBookApp */ = {
+			isa = PBXGroup;
+			children = (
+				F1224AA820A6C1A40040602A /* AppDelegate.swift */,
+				F1224AAA20A6C1A40040602A /* ViewController.swift */,
+				F1224AAC20A6C1A40040602A /* Main.storyboard */,
+				F1224AAF20A6C1A60040602A /* Assets.xcassets */,
+				F1224AB120A6C1A60040602A /* LaunchScreen.storyboard */,
+				F1224AB420A6C1A60040602A /* Info.plist */,
+			);
+			path = JewelryBookApp;
+			sourceTree = "<group>";
+		};
+		F1224ABC20A6C1A60040602A /* JewelryBookAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1224ABD20A6C1A60040602A /* JewelryBookAppTests.swift */,
+				F1224ABF20A6C1A60040602A /* Info.plist */,
+			);
+			path = JewelryBookAppTests;
+			sourceTree = "<group>";
+		};
+		F1224AC720A6C1A60040602A /* JewelryBookAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1224AC820A6C1A60040602A /* JewelryBookAppUITests.swift */,
+				F1224ACA20A6C1A60040602A /* Info.plist */,
+			);
+			path = JewelryBookAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1224AA420A6C1A40040602A /* JewelryBookApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1224ACD20A6C1A60040602A /* Build configuration list for PBXNativeTarget "JewelryBookApp" */;
+			buildPhases = (
+				F1224AA120A6C1A40040602A /* Sources */,
+				F1224AA220A6C1A40040602A /* Frameworks */,
+				F1224AA320A6C1A40040602A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JewelryBookApp;
+			productName = JewelryBookApp;
+			productReference = F1224AA520A6C1A40040602A /* JewelryBookApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1224AB820A6C1A60040602A /* JewelryBookAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1224AD020A6C1A60040602A /* Build configuration list for PBXNativeTarget "JewelryBookAppTests" */;
+			buildPhases = (
+				F1224AB520A6C1A60040602A /* Sources */,
+				F1224AB620A6C1A60040602A /* Frameworks */,
+				F1224AB720A6C1A60040602A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1224ABB20A6C1A60040602A /* PBXTargetDependency */,
+			);
+			name = JewelryBookAppTests;
+			productName = JewelryBookAppTests;
+			productReference = F1224AB920A6C1A60040602A /* JewelryBookAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1224AC320A6C1A60040602A /* JewelryBookAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1224AD320A6C1A60040602A /* Build configuration list for PBXNativeTarget "JewelryBookAppUITests" */;
+			buildPhases = (
+				F1224AC020A6C1A60040602A /* Sources */,
+				F1224AC120A6C1A60040602A /* Frameworks */,
+				F1224AC220A6C1A60040602A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1224AC620A6C1A60040602A /* PBXTargetDependency */,
+			);
+			name = JewelryBookAppUITests;
+			productName = JewelryBookAppUITests;
+			productReference = F1224AC420A6C1A60040602A /* JewelryBookAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1224A9D20A6C1A40040602A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Mac Owner";
+				TargetAttributes = {
+					F1224AA420A6C1A40040602A = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					F1224AB820A6C1A60040602A = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = F1224AA420A6C1A40040602A;
+					};
+					F1224AC320A6C1A60040602A = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = F1224AA420A6C1A40040602A;
+					};
+				};
+			};
+			buildConfigurationList = F1224AA020A6C1A40040602A /* Build configuration list for PBXProject "JewelryBookApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1224A9C20A6C1A40040602A;
+			productRefGroup = F1224AA620A6C1A40040602A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1224AA420A6C1A40040602A /* JewelryBookApp */,
+				F1224AB820A6C1A60040602A /* JewelryBookAppTests */,
+				F1224AC320A6C1A60040602A /* JewelryBookAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1224AA320A6C1A40040602A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1224AB320A6C1A60040602A /* LaunchScreen.storyboard in Resources */,
+				F1224AB020A6C1A60040602A /* Assets.xcassets in Resources */,
+				F1224AAE20A6C1A40040602A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1224AB720A6C1A60040602A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1224AC220A6C1A60040602A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1224AA120A6C1A40040602A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1224AAB20A6C1A40040602A /* ViewController.swift in Sources */,
+				F1224AA920A6C1A40040602A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1224AB520A6C1A60040602A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1224ABE20A6C1A60040602A /* JewelryBookAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1224AC020A6C1A60040602A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1224AC920A6C1A60040602A /* JewelryBookAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1224ABB20A6C1A60040602A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1224AA420A6C1A40040602A /* JewelryBookApp */;
+			targetProxy = F1224ABA20A6C1A60040602A /* PBXContainerItemProxy */;
+		};
+		F1224AC620A6C1A60040602A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1224AA420A6C1A40040602A /* JewelryBookApp */;
+			targetProxy = F1224AC520A6C1A60040602A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1224AAC20A6C1A40040602A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1224AAD20A6C1A40040602A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1224AB120A6C1A60040602A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1224AB220A6C1A60040602A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1224ACB20A6C1A60040602A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1224ACC20A6C1A60040602A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1224ACE20A6C1A60040602A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KUF5YKKT;
+				INFOPLIST_FILE = JewelryBookApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy7ster.nana.yamaguchi.JewelryBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1224ACF20A6C1A60040602A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KUF5YKKT;
+				INFOPLIST_FILE = JewelryBookApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy7ster.nana.yamaguchi.JewelryBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1224AD120A6C1A60040602A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JewelryBookAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.nana.yamaguchi.JewelryBookAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JewelryBookApp.app/JewelryBookApp";
+			};
+			name = Debug;
+		};
+		F1224AD220A6C1A60040602A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JewelryBookAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.nana.yamaguchi.JewelryBookAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JewelryBookApp.app/JewelryBookApp";
+			};
+			name = Release;
+		};
+		F1224AD420A6C1A60040602A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JewelryBookAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.nana.yamaguchi.JewelryBookAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JewelryBookApp;
+			};
+			name = Debug;
+		};
+		F1224AD520A6C1A60040602A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JewelryBookAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.nana.yamaguchi.JewelryBookAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JewelryBookApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1224AA020A6C1A40040602A /* Build configuration list for PBXProject "JewelryBookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1224ACB20A6C1A60040602A /* Debug */,
+				F1224ACC20A6C1A60040602A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1224ACD20A6C1A60040602A /* Build configuration list for PBXNativeTarget "JewelryBookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1224ACE20A6C1A60040602A /* Debug */,
+				F1224ACF20A6C1A60040602A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1224AD020A6C1A60040602A /* Build configuration list for PBXNativeTarget "JewelryBookAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1224AD120A6C1A60040602A /* Debug */,
+				F1224AD220A6C1A60040602A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1224AD320A6C1A60040602A /* Build configuration list for PBXNativeTarget "JewelryBookAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1224AD420A6C1A60040602A /* Debug */,
+				F1224AD520A6C1A60040602A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1224A9D20A6C1A40040602A /* Project object */;
+}
